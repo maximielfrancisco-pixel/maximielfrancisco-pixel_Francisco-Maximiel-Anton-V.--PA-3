@@ -28,7 +28,7 @@
         ['Model','cyl']]
 ```
 - `CARS.loc[CARS['Model'].isin(['','']), ['','']]` → Using the .isin() built in code gives us flexibility to filter multiple rows at once
-  ```python
+```python
   CARS.loc[CARS['Model'].isin(['Mazda RX4', 'Ford Pantera L', 'Honda Civic']), ['cyl', 'gear']]
 ```
 ------
